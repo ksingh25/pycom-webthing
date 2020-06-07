@@ -1,5 +1,5 @@
-SSID = 'freebox_kd'
-PASSWORD = 'bird206206'
+SSID = ''
+PASSWORD = ''
 
 if SSID == '':
     print('Please edit config.py and set the SSID and password')
