@@ -11,7 +11,7 @@ https://github.com/loboris/MicroPython_ESP32_psRAM_LoBo/wiki/microWebSrv
 To run it
 
 1. Configure the WiFi password in config.py
-2. Upload the files to pycom-pysense module
+2. Upload the files to pycom-pysense module using Atom or VScode (see docs.pycopm.io)
 3. Find the ip address obtained by pycom. For example scanning for IP addresses in your network using nmap and testing with ping. Another way is to stop the pycom program and 
 
 `>>> from network import WLAN`
