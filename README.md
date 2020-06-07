@@ -20,7 +20,7 @@ For example to change the color of RGB LED to any color (color = 13209 here) :
 
 `curl -d '{"color": 13209}' -X PUT http://192.168.0.17/0/properties/color`
 
-If you dont want to make the LED OFF
+If you want to make the LED OFF
 
 `curl -d '{"color": 0}' -X PUT http://192.168.0.17/0/properties/color`
 
