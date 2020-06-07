@@ -13,7 +13,7 @@ To run it
 1. Configure the WiFi password in config.py
 2. Upload the files to pycom-pysense module
 3. Find the ip address obtained
-4. connec to the webthing http://ip address//
+4. Connect to the webthing on your browser http://ip address//
 5. You can interact with it using curl tool (in case ip address was as follows)
 
 For example to change the color of RGB LED to any color (color = 13209 here) :
