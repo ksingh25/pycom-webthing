@@ -12,7 +12,9 @@ To run it
 
 1. Configure the WiFi password in config.py
 2. Upload the files to pycom-pysense module
-3. Find the ip address obtained. For example scanning for IP addresses in your network using nmap and testing with ping.
+3. Find the ip address obtained by pycom. For example scanning for IP addresses in your network using nmap and testing with ping. Another way is to stop the pycom program and 
+`>>> from network import WLAN`
+`>>> WLAN.ifconfig()`
 4. Connect to the webthing on your browser http://ip address//
 5. You can interact with it using curl tool (assuming that the ip address was 192.168.0.17)
 
