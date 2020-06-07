@@ -12,9 +12,9 @@ To run it
 
 1. Configure the WiFi password in config.py
 2. Upload the files to pycom-pysense module
-3. Find the ip address obtained
+3. Find the ip address obtained. For example scanning for IP addresses in your network using nmap and testing with ping.
 4. Connect to the webthing on your browser http://ip address//
-5. You can interact with it using curl tool (in case ip address was as follows)
+5. You can interact with it using curl tool (assuming that the ip address was 192.168.0.17)
 
 For example to change the color of RGB LED to any color (color = 13209 here) :
 
@@ -23,6 +23,10 @@ For example to change the color of RGB LED to any color (color = 13209 here) :
 If you want to make the LED OFF
 
 `curl -d '{"color": 0}' -X PUT http://192.168.0.17/0/properties/color`
+
+You can read the temperature using your browser or using curl
+
+`curl -X GET http://192.168.0.17/0/properties/temperature`
 
 TODO :
  - actions are not working as the code is incomplete.
