@@ -18,7 +18,7 @@ To run it
 
 `>>> WLAN.ifconfig()`
 
-4. Connect to the webthing on your browser http://ip address//
+4. To check the Things Description (TD), connect to the webthing on your browser http://ip address//
 5. You can interact with it using curl tool (assuming that the ip address was 192.168.0.17)
 
 For example to change the color of RGB LED to any color (color = 13209 here) :
