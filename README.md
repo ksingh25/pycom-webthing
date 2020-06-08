@@ -12,7 +12,7 @@ To run it
 
 1. Configure the WiFi password in config.py
 2. Upload the files to pycom-pysense module using Atom or VScode (see http://docs.pycom.io)
-3. Find the ip address obtained by pycom. For example scanning for IP addresses in your network using nmap and testing with ping. Another way is to stop the pycom program and 
+3. Find the ip address obtained by pycom. For example scanning for IP addresses in your network using nmap and testing with ping. Another way is to stop the pycom program with Ctrl+C and 
 
 `>>> from network import WLAN`
 
