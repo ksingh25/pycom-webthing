@@ -1,7 +1,7 @@
 # Pycom-webthing. 
 
-It allows to convert a pycom-pysense module into a webthing in line with W3C 
-standard on Web of Things. 
+It allows to convert a pycom-pysense module (https://pycom.io/) into a webthing in line with W3C 
+standard on Web of Things. The code was tested with Lopy4 + PySense sensor module.
 
 It uses  
 https://github.com/mozilla-iot/webthing-upy
