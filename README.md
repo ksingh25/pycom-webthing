@@ -24,10 +24,14 @@ To run it
 For example to change the color of RGB LED to any color (color = 13209 here) :
 
 `curl -d '{"color": 13209}' -X PUT http://192.168.0.17/0/properties/color`
+(on windows the command is slightly different:)
+`curl -d "{"color": 13209}" -H "Content-Type: application/json" -X PUT http://192.168.0.17/0/properties/color`
 
 If you want to make the LED OFF
 
 `curl -d '{"color": 0}' -X PUT http://192.168.0.17/0/properties/color`
+(on windows the command is slightly different:)
+`curl -d "{"color": 0}" -H "Content-Type: application/json" -X PUT http://192.168.0.17/0/properties/color`
 
 You can read the temperature using your browser or using curl
 
